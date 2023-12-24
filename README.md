@@ -5,7 +5,7 @@ Welcome to my Data Engineering portfolio! Within this repository, I invite you t
 ## Project Overview
 
 ### Real-Time Weather Data and Text Message Notification
-#### [Weather Forecast Text Message Notification](Weather_forecast_text_message_notification/README.md)
+#### [Weather Forecast Text Message Notification](Weather_forescast_text_message_notification/guide.md)
 
 In this inaugural project, we venture into the fascinating realm of real-time weather data prediction, where the synthesis of advanced data engineering techniques results in timely weather updates delivered straight to our mobile phones. The project seamlessly integrates Weather APIs, Twilio's SMS service, and AWS EC2 instances, all while adhering to cost-effectiveness within the AWS Free Tier.
 
@@ -14,7 +14,7 @@ In this inaugural project, we venture into the fascinating realm of real-time we
 - **Twilio SMS Service:** Explore the integration of Twilio for seamless delivery of concise and informative weather updates directly to mobile devices.
 - **AWS EC2 Instances:** Dive into the reliability and scalability of AWS EC2 instances, ensuring periodic execution and cost-effective operation within the AWS Free Tier.
 
-Feel free to explore the detailed project documentation in the [Weather Forecast Text Message Notification README](Weather_forecast_text_message_notification/guide.md). Gain insights into the tools, components, and objectives that make this project a captivating exploration of real-time data processing and efficient communication through weather updates.
+Feel free to explore the detailed project documentation in the [Weather Forecast Text Message Notification README](Weather_forescast_text_message_notification/guide.md). Gain insights into the tools, components, and objectives that make this project a captivating exploration of real-time data processing and efficient communication through weather updates.
 
 ---
 
