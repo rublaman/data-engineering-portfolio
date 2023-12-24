@@ -14,7 +14,7 @@ In this inaugural project, we venture into the fascinating realm of real-time we
 - **Twilio SMS Service:** Explore the integration of Twilio for seamless delivery of concise and informative weather updates directly to mobile devices.
 - **AWS EC2 Instances:** Dive into the reliability and scalability of AWS EC2 instances, ensuring periodic execution and cost-effective operation within the AWS Free Tier.
 
-Feel free to explore the detailed project documentation in the [Weather Forecast Text Message Notification README](Weather_forecast_text_message_notification/README.md). Gain insights into the tools, components, and objectives that make this project a captivating exploration of real-time data processing and efficient communication through weather updates.
+Feel free to explore the detailed project documentation in the [Weather Forecast Text Message Notification README](Weather_forecast_text_message_notification/guide.md). Gain insights into the tools, components, and objectives that make this project a captivating exploration of real-time data processing and efficient communication through weather updates.
 
 ---
 
