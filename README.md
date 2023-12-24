@@ -4,8 +4,7 @@ Welcome to my Data Engineering portfolio! Within this repository, I invite you t
 
 ## Project Overview
 
-### Real-Time Weather Data and Text Message Notification
-#### [Weather Forecast Text Message Notification](Weather_forescast_text_message_notification/guide.md)
+### [Real-Time Weather Data and Text Message Notification](Weather_forescast_text_message_notification/guide.md)
 
 In this inaugural project, we venture into the fascinating realm of real-time weather data prediction, where the synthesis of advanced data engineering techniques results in timely weather updates delivered straight to our mobile phones. The project seamlessly integrates Weather APIs, Twilio's SMS service, and AWS EC2 instances, all while adhering to cost-effectiveness within the AWS Free Tier.
 
@@ -19,3 +18,23 @@ Feel free to explore the detailed project documentation in the [Weather Forecast
 ---
 
 *As we embark on this journey, anticipate more projects that unravel various facets of ETL processes, introducing you to a world where data engineering transforms raw information into actionable intelligence.*
+
+## Contributions
+
+Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+- Fork the Project
+- Create your Feature Branch (`git checkout -b feature/new-feature`)
+- Commit your Changes (`git commit -m 'Add some new-feature'`)
+- Push to the Branch (`git push origin feature/new-feature`)
+- Open a Pull Request
+
+## License
+
+This project is licensed under the GPL-3.0 License.
+
+## Contact
+
+Please feel free to contact me if you have any questions.
+
+[LinkedIn](https://www.linkedin.com/in/rublaman)
