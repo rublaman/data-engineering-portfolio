@@ -74,4 +74,67 @@ TO-DO
 
 Now that we have enabled the YouTube API and obtained our API key, we can use it to analyze statistics from a YouTube channel. With the follow [ipynb file](youtube_stats.ipynb). We can go through the conection to the YouTube API using your API key and retrieving statistics for a specific channel.
 
+Inside the file we have the function that calls the endpoint:
+
+```python
+def get_stats(api_key, channel_id):
+    youtube = build("youtube", "v3", developerKey=api_key)
+    request = youtube.channels().list(
+        part="statistics",
+        id=channel_id
+    )
+    response = request.execute()
+    
+    channel_stats = response["items"][0]["statistics"]
+    date = pd.to_datetime("today").strftime("%Y-%m-%d")
+
+    data_channel = {
+        "Created_at": date,
+        "Total_Views": int(float(channel_stats["viewCount"])),
+        "Subscribers": int(float(channel_stats["subscriberCount"])),
+        "Video_count": int(float(channel_stats["videoCount"]))
+    }
+
+    return data_channel
+
+```
+
+And this function creates a dataframe
+
+```python
+def channel_stats(df, api_key):
+    
+    date = []
+    views = []
+    suscriber= []
+    video_count = []
+    channel_name = []
+    
+    
+    for i in tqdm(range(len(df)), colour = "green"):
+        
+        stats_temp = get_stats(API_KEY, df_channels["Channel_id"][i])
+        
+        date.append(stats_temp["Created_at"])
+        views.append(stats_temp["Total_Views"])
+        suscriber.append(stats_temp["Subscribers"])
+        video_count.append(stats_temp["Video_count"])
+        channel_name.append(df["Channel_name"][i])
+
+        
+    data = {
+        "Channel_name": channel_name,
+        "Subscribers": suscriber,
+        "Video_Count": video_count,
+        "Total_Views": views,
+        "created_at": date
+    }
+    
+    df_channels_final = pd.DataFrame(data)
+    
+    return df_channels_final
+```
+
+This is the dataframe:
+
 ![Data Frame](images/03_dataframe_result.jpg)
