@@ -1,6 +1,6 @@
 # Data Engineering Portfolio
 
-Welcome to my Data Engineering portfolio! Within this repository. Here you can find different data engineering projects. Each project is an example to the dynamic world of data engineering, where innovative tools and methodologies are employed to unlock valuable insights from raw data.
+Welcome to my Data Engineering portfolio!Here you can find different data engineering projects. Each project is an example to the dynamic world of data engineering, where innovative tools and methodologies are employed to unlock valuable insights from raw data.
 
 ## Project Overview
 
@@ -21,7 +21,7 @@ Feel free to explore the detailed project documentation in the [Weather Forecast
 
 ## Contributions
 
-Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Any contributions you make are greatly appreciated.
 
 - Fork the Project
 - Create your Feature Branch (`git checkout -b feature/new-feature`)
