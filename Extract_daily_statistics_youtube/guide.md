@@ -1,12 +1,28 @@
-b# Introduction: Soccer league data ingestion
+# Introduction: Soccer league data ingestion
 
 TO-DO
 
-## Project Overview
+# Index
 
-TO-DO
+1. [Introduction: Soccer League Data Ingestion](#introduction-soccer-league-data-ingestion)
+2. [Project Overview](#project-overview)
+3. [Key Components](#key-components)
+   1. [TO-DO](#to-do)
+      - test
+   2. [TO-DO](#to-do-1)
+      - test
+   3. [TO-DO](#to-do-2)
+      - test
+4. [Guide](#guide)
+   1. [Requirements](#requirements)
+   2. [Youtube API Credentials](#youtube-api-credentials)
+      - [Enable the YouTube API v3 Service in Google Cloud](#enable-the-youtube-api-v3-service-in-google-cloud)
+      - [Create an API Key](#create-an-api-key)
+      - [Restrict Access by IP](#restrict-access-by-ip)
+   3. [Using the YouTube API to Analyze Statistics](#using-the-youtube-api-to-analyze-statistics)
 
-## Key Components
+
+# Key Components
 
 1. **TO-DO**
    - test
