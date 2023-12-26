@@ -1,10 +1,10 @@
 # Introduction: Weather Data Retrieval and Text Message Notification
 
-Welcome to my data engineering portfolio, where I showcase my passion for leveraging cutting-edge technologies to create impactful solutions. One of my standout projects involves the real-time acquisition of weather data using a Weather API, followed by seamless delivery to our mobile devices through Twilio's SMS service. The entire system is hosted on AWS, utilizing its EC2 instances, and operates cost-effectively within the bounds of the AWS Free Tier.
+This project involves the acquisition of weather data using a Weather API, followed by seamless delivery to our mobile devices through Twilio's SMS service. The entire system is hosted on AWS, utilizing its EC2 instances, and operates cost-effectively within the bounds of the AWS Free Tier.
 
 ## Project Overview
 
-In this endeavor, I set out to create a robust system that not only fetches real-time weather information but also delivers it directly to our mobile phones through text messages. The backbone of this architecture relies on the powerful capabilities of Amazon Web Services (AWS), particularly its EC2 instances, providing a scalable and reliable infrastructure for the periodic execution of our weather data service.
+I set out to create a robust system that not only fetches real-time weather information but also delivers it directly to our mobile phones through text messages. The backbone of this architecture relies on the powerful capabilities of Amazon Web Services (AWS), particularly its EC2 instances, providing a scalable and reliable infrastructure for the periodic execution of our weather data service.
 
 ## Key Components
 
