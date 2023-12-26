@@ -37,8 +37,8 @@ with DAG('FOOTBAL_LEAGUES',
 
 
          params_info = Variable.get("feature_info", deserialize_json=True)
-         df = pd.read_csv('/usr/local/airflow/df_ligas.csv')
-         df_team = pd.read_csv('/usr/local/airflow/team_table.csv')
+         df = pd.read_csv('/data/df_ligas.csv')
+         df_team = pd.read_csv('/data/team_table.csv')
 
          def extract_info(df ,df_team ,**kwargs):
 
