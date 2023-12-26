@@ -56,4 +56,4 @@ TO-DO
 
 ## Using the YouTube API to Analyze Statistics
 
-Now that we have enabled the YouTube API and obtained our API key, we can use it to analyze statistics from a YouTube channel. [provided template](youtube_stats.ipynb). This notebook will guide you through connecting to the YouTube API using your API key and retrieving statistics for a specific channel.
+Now that we have enabled the YouTube API and obtained our API key, we can use it to analyze statistics from a YouTube channel. With the follow [ipynb file](youtube_stats.ipynb). We can go through the conection to the YouTube API using your API key and retrieving statistics for a specific channel.
