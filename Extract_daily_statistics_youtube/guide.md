@@ -138,3 +138,6 @@ def channel_stats(df, api_key):
 This is the dataframe:
 
 ![Data Frame](images/03_dataframe_result.jpg)
+
+## Lambda Function
+
