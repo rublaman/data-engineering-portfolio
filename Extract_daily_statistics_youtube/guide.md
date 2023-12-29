@@ -265,3 +265,29 @@ def lambda_handler(event, context):
     return f'file youtube_stats_{date}.csv send succeded'
 
 ```
+
+### AWS EventBridge Integration
+
+#### 1. Create an EventBridge Rule
+
+- In the AWS Management Console, navigate to Amazon EventBridge.
+- Click "Create rule" and provide a name and description for the rule (e.g., `automate_youtube_stats`).
+![S3 bucket creation](images/09_EventBridge.jpg)
+- Set up a recurring schedule for daily execution at 14:30 (2:30 PM).
+- The AWS interface will display a table with the days and times of each rule execution.
+![S3 bucket creation](images/09_EventBridge_02.jpg)
+
+
+#### 2. Associate Rule with Lambda Function
+
+- After creating the rule, go to your Lambda function in the AWS Management Console.
+- In the function configuration, click "Add trigger."
+- Choose the trigger source as EventBridge.
+- Select the rule you just created (`automate_youtube_stats`).
+
+![S3 bucket creation](images/09_EventBridge_03.jpg)
+
+#### 3. Testing the Integration
+
+- Save the Lambda function configuration.
+- Ensure that the EventBridge rule is active and scheduled for daily execution at the specified time.
