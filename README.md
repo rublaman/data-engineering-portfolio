@@ -4,7 +4,6 @@ Welcome to my Data Engineering portfolio!Here you can find different data engine
 
 ---
 
-
 ## Projects Overview
 
 ### [Weather Data and Text Message Notification](Weather_forescast_text_message_notification/guide.md)
@@ -17,11 +16,9 @@ This project obtains weather data and sends them by text message. The project se
 - **Twilio SMS Service:** Explore the integration of Twilio for seamless delivery of concise and informative weather updates directly to mobile devices.
 - **AWS EC2 Instances:** Dive into the reliability and scalability of AWS EC2 instances, ensuring periodic execution and cost-effective operation within the AWS Free Tier.
 
-
-
 ### [Extract Daily Statistics YouTube](Extract_daily_statistics_youtube/guide.md)
 
-This project focuses on automating the extraction of daily statistics from YouTube channels, providing valuable insights into key metrics such as subscribers, video count, and total views. The project seamlessly integrates Google Cloud and AWS services to ensure efficient data processing and timely updates.
+Automating YouTube channel metric extraction, this project integrates Google Cloud for YouTube API access and AWS Lambda for serverless processing with S3 storage. Scheduled updates via AWS EventBridge ensure timely data refresh. AWS Athena and Glue facilitate thorough analysis, offering SQL-like queries and comprehensive table creation for insightful metrics exploration.
 
 #### Key Highlights
 
