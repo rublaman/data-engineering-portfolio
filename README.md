@@ -1,6 +1,6 @@
 # Data Engineering Portfolio
 
-Welcome to my Data Engineering portfolio!Here you can find different data engineering projects. Each project is an example to the dynamic world of data engineering, where innovative tools and methodologies are employed to unlock valuable insights from raw data.
+Welcome to my Data Engineering Portfolio! Within this repository, I'll showcase various data engineering projects where I employ a range of tools offered by AWS, Azure, and GCP for data extraction, transformation, and loading. Additionally, I'll demonstrate the consumption of API services (Weather, YouTube) and the utilization of containerization tools like Docker, along with data warehouses such as Snowflake."
 
 ---
 
