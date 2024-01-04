@@ -1,6 +1,6 @@
 # Data Engineering Portfolio
 
-I showcase projects highlighting my expertise in data engineering. One project involves integrating weather APIs, Twilio's SMS service, and AWS EC2 for efficient delivery of weather updates via text messages. The second project automates the daily extraction of metrics from YouTube channels using Google Cloud and AWS, employing technologies such as AWS Lambda, S3, EventBridge, Athena, and Glue for comprehensive analysis.
+I share projects that reflect my expertise in data engineering. One project focuses on integrating weather APIs, Twilio's SMS service and AWS EC2 for efficient delivery of weather updates via text messages. Another project involves daily extraction of YouTube channel metrics using Google Cloud and AWS, leveraging technologies such as AWS Lambda, S3, EventBridge, Athena and Glue for comprehensive analytics. These projects serve as examples of my continuous efforts to keep improving my technical skills so that others can learn from these projects.
 
 ---
 
