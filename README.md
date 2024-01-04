@@ -1,6 +1,6 @@
 # Data Engineering Portfolio
 
-Welcome to my Data Engineering Portfolio! Within this repository, I'll showcase various data engineering projects where I employ a range of tools offered by AWS, Azure, and GCP for data extraction, transformation, and loading. Additionally, I'll demonstrate the consumption of API services (Weather, YouTube) and the utilization of containerization tools like Docker, along with data warehouses such as Snowflake."
+I showcase projects highlighting my expertise in data engineering. One project involves integrating weather APIs, Twilio's SMS service, and AWS EC2 for efficient delivery of weather updates via text messages. The second project automates the daily extraction of metrics from YouTube channels using Google Cloud and AWS, employing technologies such as AWS Lambda, S3, EventBridge, Athena, and Glue for comprehensive analysis.
 
 ---
 
