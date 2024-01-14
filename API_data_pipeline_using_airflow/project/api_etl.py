@@ -2,13 +2,12 @@ import pandas as pd
 import json
 import s3fs
 import requests
-import pandas as pd
 from datetime import datetime
 
 
-def main():
+def run_youtube_etl():
     
-    API_KEY = "MY-API-KEY"
+    API_KEY = "GOOGLE-API-KEY"
     
     channels_name = ["Codecademy", "GitHub", "Amazon Web Services", "Microsoft Azure"]
     channels_ids = ["UC5CMtpogD_P3mOoeiDHD5eQ", "UC7c3Kb6jYCRj4JOHHZTxKsQ", "UCd6MoB9NC6uYN2grvUNT-Zg", "UC0m-80FnNY2Qb7obvTL_2fA"]
@@ -21,7 +20,7 @@ def main():
     df_channels = pd.DataFrame(channels)
     channels = channel_stats(df_channels, API_KEY)
     
-    channels.to_csv("channels_to_analize.csv", encoding='utf-8', index=False)
+    channels.to_csv("s3://rublaman-airflow-youtube-bucket/channels_to_analize.csv", encoding='utf-8', index=False)
     
     
 def get_stats(api_key, channel_id):
@@ -70,6 +69,3 @@ def channel_stats(df_channels, API_KEY):
     df_channels_final = pd.DataFrame(data)
 
     return df_channels_final
-    
-if __name__ == "__main__":
-    main()

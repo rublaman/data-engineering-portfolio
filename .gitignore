@@ -10,6 +10,9 @@ __pycache__/
 config.py
 config.cfg
 
+# Keys
+*.pem
+
 # Distribution / packaging
 .Python
 build/
