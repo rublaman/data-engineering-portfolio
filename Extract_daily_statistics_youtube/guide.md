@@ -1,6 +1,4 @@
-# Introduction: Soccer league data ingestion
-
-TO-DO
+# Soccer league data ingestion
 
 ## Index
 
