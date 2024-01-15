@@ -33,10 +33,6 @@ Automating YouTube channel metric extraction, this project integrates Google Clo
   - Implement a serverless solution with AWS Lambda.
   - Leverage S3 for data storage and AWS SDK Pandas Layer for efficient data processing.
 
-- **AWS Lambda Function**
-  - Implement a serverless solution with AWS Lambda.
-  - Leverage S3 for data storage and AWS SDK Pandas Layer for efficient data processing.
-
 - **AWS EventBridge Integration**
   - Schedule daily execution with EventBridge for reliable and automated updates.
 
