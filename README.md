@@ -6,7 +6,7 @@ I share projects that reflect my expertise in data engineering. One project focu
 
 ## Projects Overview
 
-### [Weather Data and Text Message Notification](Weather_forescast_text_message_notification/guide.md)
+### [Weather Data and Text Message Notification](Text-message-notification-weather/guide.md)
 
 This project obtains weather data and sends them by text message. The project seamlessly integrates Weather APIs, Twilio's SMS service, and AWS EC2 instances, all while adhering to cost-effectiveness within the AWS Free Tier.
 
@@ -16,7 +16,7 @@ This project obtains weather data and sends them by text message. The project se
 - **Twilio SMS Service:** Explore the integration of Twilio for seamless delivery of concise and informative weather updates directly to mobile devices.
 - **AWS EC2 Instances:** Dive into the reliability and scalability of AWS EC2 instances, ensuring periodic execution and cost-effective operation within the AWS Free Tier.
 
-### [Extract Daily Statistics YouTube](Extract_daily_statistics_youtube/guide.md)
+### [Extract Daily Statistics YouTube](Extract-daily-statistics-youtube/guide.md)
 
 Automating YouTube channel metric extraction, this project integrates Google Cloud for YouTube API access and AWS Lambda for serverless processing with S3 storage. Scheduled updates via AWS EventBridge ensure timely data refresh. AWS Athena and Glue facilitate thorough analysis, offering SQL-like queries and comprehensive table creation for insightful metrics exploration.
 
