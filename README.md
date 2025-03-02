@@ -1,4 +1,5 @@
 # Data Engineering Portfolio
+
 Welcome to my Data Engineering Portfolio! Here, I showcase various projects that highlight my passion for using data and technology to solve real-world problems. Each project represents my dedication to learning and innovation in data engineering.
 
 In this portfolio, you'll find projects covering different technologies and areas, with detailed guides and step-by-step instructions. Whether it's integrating APIs, building cloud-based solutions, or automating data workflows, these projects demonstrate my skills and curiosity in turning data into valuable insights.
@@ -8,6 +9,16 @@ I mainly use popular cloud providers like AWS, Google Cloud Platform, and Azure,
 Feel free to explore the projects, check out the technologies I've used, and see how I've tackled various challenges in data engineering. With each project, I continue to grow and expand my capabilities in this exciting field.
 
 ---
+
+## Index
+- [Projects Overview](#projects-overview)
+  - [AWS + Terraform + GitHub Actions Project](#aws--terraform--github-actions-project)
+  - [Weather Data and Text Message Notification](#weather-data-and-text-message-notification)
+  - [Extract Daily Statistics YouTube](#extract-daily-statistics-youtube)
+- [Contributions](#contributions)
+- [License](#license)
+- [Contact](#contact)
+
 ## Projects Overview
 
 ### [AWS + Terraform + GitHub Actions Project](https://github.com/rublaman/data-engineering-portfolio)
@@ -46,7 +57,6 @@ A comprehensive Infrastructure-as-Code (IaC) solution that automates AWS infrast
   - Apply the principle of least privilege with environment-specific IAM credentials.
   - Implement secure credential management through GitHub Secrets.
   - Establish proper branch protection rules to prevent unauthorized changes.
-
 
 ### [Weather Data and Text Message Notification](Text-message-notification-weather/guide.md)
 This project obtains weather data and sends them by text message. The project seamlessly integrates Weather APIs, Twilio's SMS service, and AWS EC2 instances, all while adhering to cost-effectiveness within the AWS Free Tier.
@@ -106,6 +116,7 @@ Automating YouTube channel metric extraction, this project integrates Google Clo
   - Set up Athena for SQL-like queries and Glue for crawling and table creation, enabling comprehensive data analysis.
 
 ---
+
 *Gradually I will be adding more projects with different challenges and technologies.*
 
 ## Contributions
