@@ -10,6 +10,44 @@ Feel free to explore the projects, check out the technologies I've used, and see
 ---
 ## Projects Overview
 
+### [AWS + Terraform + GitHub Actions Project](https://github.com/rublaman/data-engineering-portfolio)
+A comprehensive Infrastructure-as-Code (IaC) solution that automates AWS infrastructure deployment using Terraform and GitHub Actions. This project implements a multi-environment deployment strategy (dev, stg, pro) with robust security practices, designed to help teams efficiently manage cloud infrastructure following industry best practices.
+
+#### Main Purpose to Learn
+- Infrastructure as Code principles and implementation
+- CI/CD automation for infrastructure deployment
+- Multi-environment strategy with secure state management
+- DevOps security best practices and access control
+
+#### Technologies Used
+- Terraform
+- AWS
+  - S3
+  - IAM
+- GitHub Actions
+- Bash Scripting
+- Git
+- Mermaid Diagrams
+
+#### Key Highlights
+- **S3 Data Lake Architecture**
+  - Design and deploy a structured data lake with four specialized S3 buckets per environment.
+  - Implement proper data flow patterns from landing to raw, curated, and ready zones.
+  - Configure private bucket access with versioning for secure data tracking.
+- **Infrastructure as Code with Terraform**
+  - Leverage Terraform 1.11 for defining and provisioning modular AWS infrastructure.
+  - Create reusable modules for consistent infrastructure deployment across environments.
+  - Maintain separate state management for each environment with remote state in S3.
+- **CI/CD Pipeline with GitHub Actions**
+  - Implement environment-specific workflows triggered by branch-based deployments.
+  - Enforce code reviews and approval processes before infrastructure changes.
+  - Automate planning, validation, and deployment of infrastructure changes.
+- **Security and Access Control**
+  - Apply the principle of least privilege with environment-specific IAM credentials.
+  - Implement secure credential management through GitHub Secrets.
+  - Establish proper branch protection rules to prevent unauthorized changes.
+
+
 ### [Weather Data and Text Message Notification](Text-message-notification-weather/guide.md)
 This project obtains weather data and sends them by text message. The project seamlessly integrates Weather APIs, Twilio's SMS service, and AWS EC2 instances, all while adhering to cost-effectiveness within the AWS Free Tier.
 
@@ -66,43 +104,6 @@ Automating YouTube channel metric extraction, this project integrates Google Clo
   - Schedule daily execution with EventBridge for reliable and automated updates.
 - **AWS Athena and AWS Glue**
   - Set up Athena for SQL-like queries and Glue for crawling and table creation, enabling comprehensive data analysis.
-
-### [AWS + Terraform + GitHub Actions Project](https://github.com/rublaman/data-engineering-portfolio)
-A comprehensive Infrastructure-as-Code (IaC) solution that automates AWS infrastructure deployment using Terraform and GitHub Actions. This project implements a multi-environment deployment strategy (dev, stg, pro) with robust security practices, designed to help teams efficiently manage cloud infrastructure following industry best practices.
-
-#### Main Purpose to Learn
-- Infrastructure as Code principles and implementation
-- CI/CD automation for infrastructure deployment
-- Multi-environment strategy with secure state management
-- DevOps security best practices and access control
-
-#### Technologies Used
-- Terraform
-- AWS
-  - S3
-  - IAM
-- GitHub Actions
-- Bash Scripting
-- Git
-- Mermaid Diagrams
-
-#### Key Highlights
-- **S3 Data Lake Architecture**
-  - Design and deploy a structured data lake with four specialized S3 buckets per environment.
-  - Implement proper data flow patterns from landing to raw, curated, and ready zones.
-  - Configure private bucket access with versioning for secure data tracking.
-- **Infrastructure as Code with Terraform**
-  - Leverage Terraform 1.11 for defining and provisioning modular AWS infrastructure.
-  - Create reusable modules for consistent infrastructure deployment across environments.
-  - Maintain separate state management for each environment with remote state in S3.
-- **CI/CD Pipeline with GitHub Actions**
-  - Implement environment-specific workflows triggered by branch-based deployments.
-  - Enforce code reviews and approval processes before infrastructure changes.
-  - Automate planning, validation, and deployment of infrastructure changes.
-- **Security and Access Control**
-  - Apply the principle of least privilege with environment-specific IAM credentials.
-  - Implement secure credential management through GitHub Secrets.
-  - Establish proper branch protection rules to prevent unauthorized changes.
 
 ---
 *Gradually I will be adding more projects with different challenges and technologies.*
