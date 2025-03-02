@@ -67,7 +67,7 @@ Automating YouTube channel metric extraction, this project integrates Google Clo
 - **AWS Athena and AWS Glue**
   - Set up Athena for SQL-like queries and Glue for crawling and table creation, enabling comprehensive data analysis.
 
-### [AWS + Terraform + GitHub Actions Project](demo-github-actions-terraform-aws)
+### [AWS + Terraform + GitHub Actions Project](https://github.com/rublaman/data-engineering-portfolio)
 A comprehensive Infrastructure-as-Code (IaC) solution that automates AWS infrastructure deployment using Terraform and GitHub Actions. This project implements a multi-environment deployment strategy (dev, stg, pro) with robust security practices, designed to help teams efficiently manage cloud infrastructure following industry best practices.
 
 #### Main Purpose to Learn
